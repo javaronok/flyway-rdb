@@ -40,7 +40,7 @@ public class RedDatabaseType extends BaseDatabaseType {
 
     @Override
     public boolean handlesDatabaseProductNameAndVersion(String databaseProductName, String databaseProductVersion, Connection connection) {
-        return databaseProductName.startsWith("Red Database");
+        return databaseProductName.startsWith("RedDatabase");
     }
 
     @Override
