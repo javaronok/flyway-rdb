@@ -25,7 +25,7 @@ public class RedDatabase extends Database<RdbConnection> {
     }
 
     @Override
-    public void ensureSupported() {
+    public void ensureSupported(Configuration configuration) {
         ensureDatabaseIsRecentEnough("3.0");
     }
 

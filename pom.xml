@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <properties>
-        <flyway.version>9.7.0</flyway.version>
+        <flyway.version>10.10.0</flyway.version>
     </properties>
     <modelVersion>4.0.0</modelVersion>
 
@@ -11,7 +11,7 @@
     <artifactId>flyway-rdb</artifactId>
     <packaging>jar</packaging>
     <name>${project.artifactId}</name>
-    <version>9.7.0</version>
+    <version>10.10.0</version>
 
     <dependencies>
         <dependency>
